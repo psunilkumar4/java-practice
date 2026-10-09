@@ -2,7 +2,7 @@ public class SearchStudent {
     public void search(){
         int[] numbers = {10, 25, 40, 55};
         int target = 40;
-        boolean found = false;
+        boolean found = true;
 
         for (int number:numbers) {
             if (number == target) {
